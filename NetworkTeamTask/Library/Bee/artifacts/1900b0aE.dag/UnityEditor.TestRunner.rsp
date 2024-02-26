@@ -111,6 +111,7 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Z:/Team課題/NetworkTeamTask/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"Z:/Unitymoro/Unity-unity-File-aaaaa/2021.3.28f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"Z:/Unitymoro/Unity-unity-File-aaaaa/2021.3.28f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"Z:/Unitymoro/Unity-unity-File-aaaaa/2021.3.28f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -322,7 +323,6 @@
 -r:"Z:/Unitymoro/Unity-unity-File-aaaaa/2021.3.28f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
 -r:"Z:/Unitymoro/Unity-unity-File-aaaaa/2021.3.28f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"Z:/Unitymoro/Unity-unity-File-aaaaa/2021.3.28f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
--r:"Z:/試しのU(nity/NetworkTeamTask/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 "Library/PackageCache/com.unity.test-framework@1.1.33/UnityEditor.TestRunner/Api/Analytics/AnalyticsReporter.cs"
 "Library/PackageCache/com.unity.test-framework@1.1.33/UnityEditor.TestRunner/Api/Analytics/AnalyticsTestCallback.cs"
