@@ -3,9 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using static System.Net.Mime.MediaTypeNames;
+using Photon.Pun;
+using Photon.Realtime;
 
-public class OthelloBoard : MonoBehaviour
+public class OthelloBoard : MonoBehaviourPunCallbacks
 {
     // 現在のプレイヤーターン
     public int CurrentTurn = 0;
@@ -58,6 +59,9 @@ public class OthelloBoard : MonoBehaviour
         ScoreBoard.GetComponent<RectTransform>().SetSiblingIndex(BoardSize * BoardSize + 1);
         GameObject.Destroy(Template);
         InitializeGame();
+
+        // Photonの初期化
+        PhotonNetwork.ConnectUsingSettings();
     }
 
     // セルを生成するメソッド
@@ -227,5 +231,25 @@ public class OthelloBoard : MonoBehaviour
             }
         }
         return count;
+    }
+
+    public override void OnConnectedToMaster()
+    {
+        // ルームに入室するか、新しいルームを作成する
+        PhotonNetwork.JoinOrCreateRoom("OthelloRoom", new Photon.Realtime.RoomOptions(), TypedLobby.Default);
+    }
+
+    public override void OnJoinRandomFailed(short returnCode, string message)
+    {
+        PhotonNetwork.CreateRoom(null, new Photon.Realtime.RoomOptions(), TypedLobby.Default);
+    }
+
+    public void ServerPlaceHere(Vector2 location)
+    {
+        if (CanPlaceHere(location))
+        {
+            PlaceHere(OthelloCells[(int)location.x, (int)location.y]);
+            photonView.RPC("RpcEndTurn", RpcTarget.All, false);
+        }
     }
 }
