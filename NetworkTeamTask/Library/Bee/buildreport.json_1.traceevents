@@ -1,0 +1,530 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1709130086343294, "dur": 5491273, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1709130086343628, "dur": 12308, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1709130086355938, "dur": 47825, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1709130086403765, "dur": 1963666, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1709130088367433, "dur": 3456422, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1709130091823857, "dur": 10710, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1709130091835125, "dur": 56, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1709130087568141, "dur": 778008, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1709130087571558, "dur": 82808, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1709130088305964, "dur": 6401, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1709130088312370, "dur": 33757, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1709130088313228, "dur": 31368, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1709130088353432, "dur": 4005, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1709130088352462, "dur": 5045, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1709130091835238, "dur": 355, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1709130088444416, "dur":1914, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709130088446340, "dur":102, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1709130088446454, "dur":23, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1709130088446477, "dur":488, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1709130088446990, "dur":597, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709130088447587, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709130091794306, "dur":124, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709130091794430, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709130091794441, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709130091794444, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709130091794450, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709130091794452, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709130091794458, "dur":14, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709130091794472, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709130091794478, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709130091794480, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709130091794486, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709130091794488, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709130091794495, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709130091794503, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709130091794527, "dur":1247, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1709130088447193, "dur":405, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130088447600, "dur":4441, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130088452053, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1709130088452059, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130088452741, "dur":282, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1709130088453027, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1709130088453046, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130088455411, "dur":2697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1709130088458111, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1709130088458149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130088458165, "dur":3842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1709130088462023, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1709130088462053, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130088462389, "dur":28086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1709130088490498, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1709130088490526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130088490530, "dur":13151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1709130088503697, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1709130088503726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130088504201, "dur":4631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1709130088508849, "dur":27971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1709130088536826, "dur":24, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130088536880, "dur":30342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1709130088567236, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1709130088567270, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130088567275, "dur":25533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1709130088592824, "dur":293182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130088886010, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130088886016, "dur":1460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130088887491, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1709130088887522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130088887706, "dur":63736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1709130088951459, "dur":282343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130089233811, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130089234443, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130089235615, "dur":27845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130089263465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130089263519, "dur":786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130089264318, "dur":53061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130089317384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130089317390, "dur":4681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130089322090, "dur":47083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130089369210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130089369218, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130089370594, "dur":45116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130089415714, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130089415720, "dur":1185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130089416923, "dur":26792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130089443720, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130089443728, "dur":912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130089444654, "dur":187782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130089632440, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130089632447, "dur":1068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130089633529, "dur":73256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130089706790, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130089706798, "dur":1608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130089708424, "dur":192538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130089900968, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130089900977, "dur":2395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130089903388, "dur":50493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130089953883, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130089953889, "dur":12833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130089966733, "dur":114962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130090081698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130090081702, "dur":1401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130090083115, "dur":25517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130090108636, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130090108646, "dur":3414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130090112073, "dur":50663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130090162740, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130090162747, "dur":830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130090163589, "dur":42245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130090205839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130090205845, "dur":1773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130090207634, "dur":7435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709130090215093, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130090215099, "dur":814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709130090215926, "dur":43709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130090259640, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130090259646, "dur":1037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130090260694, "dur":41965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709130090302663, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130090302670, "dur":978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709130090303660, "dur":20439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709130090324104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130090324110, "dur":1144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709130090325268, "dur":325960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130090651233, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130090651240, "dur":1978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130090653231, "dur":110008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130090763243, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130090763249, "dur":878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130090764139, "dur":174803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130090938945, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130090938952, "dur":1145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130090940109, "dur":173188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130091113300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130091113306, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130091115059, "dur":88641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709130091203705, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130091203715, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709130091204729, "dur":47952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709130091252684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130091252688, "dur":737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1709130091253434, "dur":92283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130091345721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130091345728, "dur":912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130091346656, "dur":42759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130091389419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130091389426, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130091390416, "dur":61572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130091451992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130091451998, "dur":743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709130091452752, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1709130091452765, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130091452768, "dur":1398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1709130091454178, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1709130091454189, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130091454192, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1709130091455372, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1709130091455384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130091455388, "dur":634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1709130091456033, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1709130091456044, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130091456048, "dur":648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1709130091456707, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1709130091456718, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130091456721, "dur":618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1709130091457349, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1709130091457481, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709130091457484, "dur":728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1709130091458224, "dur":336079, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709130088447356, "dur":245, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709130088447602, "dur":7178, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709130088454781, "dur":21040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1709130088475827, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709130088475836, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1709130088476945, "dur":105571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1709130088582519, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709130088582526, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1709130088583751, "dur":661524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130089245280, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709130089245313, "dur":12369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130089257698, "dur":53974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130089311678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709130089311685, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130089312897, "dur":34632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130089347531, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709130089347541, "dur":7219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130089354775, "dur":56114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130089410897, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709130089410904, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130089412353, "dur":69019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130089481375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709130089481379, "dur":898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130089482288, "dur":106989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130089589283, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709130089589315, "dur":9302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130089598631, "dur":78039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130089676674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709130089676680, "dur":11382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130089688075, "dur":48496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130089736576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709130089736582, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130089737382, "dur":47487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130089784874, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709130089784881, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130089786416, "dur":60907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130089847328, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709130089847335, "dur":1352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130089848699, "dur":53633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130089902336, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709130089902342, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130089903772, "dur":44131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130089947907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709130089947913, "dur":18354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130089966312, "dur":53928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130090020245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709130090020251, "dur":894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130090021157, "dur":146207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130090167369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709130090167375, "dur":784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130090168171, "dur":338901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130090507076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709130090507082, "dur":945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130090508040, "dur":194526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130090702568, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709130090702573, "dur":22289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130090724881, "dur":227100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130090951986, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709130090951993, "dur":810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130090952814, "dur":133591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130091086446, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709130091086470, "dur":2172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130091088655, "dur":36335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709130091124994, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709130091125001, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709130091126225, "dur":126202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130091252431, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709130091252437, "dur":881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709130091253329, "dur":13571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709130091266904, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709130091266914, "dur":840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709130091267767, "dur":116915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709130091384685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709130091384690, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709130091386252, "dur":108865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709130091495121, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709130091495127, "dur":15694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1709130091510835, "dur":283486, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709130088447386, "dur":221, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709130088447607, "dur":7076, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709130088454684, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1709130088454745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709130088456092, "dur":34370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1709130088490479, "dur":22378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1709130088512862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709130088512868, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1709130088513805, "dur":68130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1709130088581938, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709130088581944, "dur":762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1709130088582719, "dur":651983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130089234706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709130089235125, "dur":21620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130089256774, "dur":34831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130089291609, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709130089291616, "dur":759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130089292388, "dur":43471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130089335864, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709130089335870, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130089336761, "dur":65762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130089402528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709130089402534, "dur":1147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130089403697, "dur":60084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130089463785, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709130089463791, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130089465116, "dur":187064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130089652185, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709130089652191, "dur":863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130089653067, "dur":203566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130089856637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709130089856642, "dur":828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130089857485, "dur":58641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130089916130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709130089916137, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130089917226, "dur":70819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130089988049, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709130089988056, "dur":4003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130089992074, "dur":45960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130090038038, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709130090038045, "dur":7372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130090045431, "dur":36225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130090081661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709130090081667, "dur":1493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130090083171, "dur":177288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130090260463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709130090260468, "dur":4706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130090265189, "dur":211194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130090476387, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709130090476393, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130090477447, "dur":72178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130090549628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709130090549633, "dur":785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130090550428, "dur":151882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130090702314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709130090702320, "dur":21922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130090724254, "dur":90755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130090815014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709130090815020, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130090815990, "dur":226405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130091042399, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709130091042406, "dur":14308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130091056730, "dur":26774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1709130091083509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709130091083515, "dur":1368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1709130091084896, "dur":146288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130091231188, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709130091231195, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130091232010, "dur":147167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130091379181, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709130091379187, "dur":5093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130091384293, "dur":271977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130091656274, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709130091656281, "dur":1107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709130091657402, "dur":136907, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709130088447407, "dur":204, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709130088447611, "dur":5478, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709130088453090, "dur":125422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1709130088578516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709130088578522, "dur":2815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1709130088581352, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1709130088581383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709130088581389, "dur":20723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1709130088602128, "dur":2853356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709130091455486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709130091455490, "dur":34879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709130091490384, "dur":303920, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130088447447, "dur":171, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130088447618, "dur":5130, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130088452749, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1709130088452785, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130088456349, "dur":34108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1709130088490474, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1709130088490515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130088490529, "dur":13624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1709130088504167, "dur":98629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1709130088602820, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130088602827, "dur":771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1709130088603612, "dur":850573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1709130089454190, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130089454195, "dur":1696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1709130089455906, "dur":25363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130089481273, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130089481280, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130089482270, "dur":36637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130089518911, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130089518918, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130089519827, "dur":5293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1709130089525125, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130089525132, "dur":826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1709130089525971, "dur":129686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130089655661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130089655667, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130089656729, "dur":61410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130089718197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130089718204, "dur":2729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130089720951, "dur":44736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130089765691, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130089765698, "dur":2019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130089767730, "dur":35039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130089802773, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130089802779, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130089803750, "dur":47502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130089851257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130089851263, "dur":2379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130089853663, "dur":81901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130089935568, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130089935574, "dur":2125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130089937713, "dur":32949, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130089970666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130089970673, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130089971836, "dur":40433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130090012274, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130090012281, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130090013293, "dur":21936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130090035232, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130090035238, "dur":795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130090036045, "dur":64415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130090100469, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130090100481, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130090101373, "dur":53185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130090154562, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130090154569, "dur":746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130090155329, "dur":37034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130090192367, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130090192471, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130090193608, "dur":37723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130090231335, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130090231341, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130090232475, "dur":13159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1709130090245639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130090245645, "dur":991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1709130090246649, "dur":93010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130090339666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130090339674, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130090340755, "dur":9784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1709130090350543, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130090350550, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1709130090351947, "dur":101357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130090453309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130090453315, "dur":1269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130090454597, "dur":241597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130090696198, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130090696204, "dur":26347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130090722566, "dur":183308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130090905879, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130090905886, "dur":1268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130090907167, "dur":80221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130090987477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130090987485, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130090988480, "dur":300318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130091288814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130091288820, "dur":988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130091289820, "dur":144690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130091434514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130091434520, "dur":826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709130091435357, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1709130091435370, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130091435384, "dur":869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1709130091436265, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1709130091436278, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130091436282, "dur":728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1709130091437021, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1709130091437031, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130091437035, "dur":613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1709130091437659, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1709130091437811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130091437815, "dur":840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1709130091438666, "dur":56489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1709130091495157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709130091495161, "dur":1068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1709130091496241, "dur":298061, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130088447478, "dur":146, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130088447624, "dur":4501, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130088452126, "dur":124120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1709130088576250, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130088576656, "dur":904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1709130088577575, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1709130088577608, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130088577613, "dur":91202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1709130088668830, "dur":545179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master.exe" }}
+,{ "pid":12345, "tid":6, "ts":1709130089214013, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130089214019, "dur":2280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master.exe" }}
+,{ "pid":12345, "tid":6, "ts":1709130089216312, "dur":129703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130089346020, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130089346027, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130089347465, "dur":117383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130089464852, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130089464874, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130089465874, "dur":26418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130089492297, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130089492304, "dur":8165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130089500481, "dur":152754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130089653239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130089653244, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130089654498, "dur":101128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130089755630, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130089755637, "dur":1007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130089756659, "dur":45497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130089802164, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130089802171, "dur":829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130089803012, "dur":33910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130089836927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130089836933, "dur":849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130089837796, "dur":23700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130089861501, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130089861508, "dur":823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130089862344, "dur":46505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130089908854, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130089908861, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130089910339, "dur":43135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130089953479, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130089953485, "dur":14030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130089967529, "dur":64850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130090032383, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130090032390, "dur":810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130090033214, "dur":48631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130090081847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130090081851, "dur":1317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130090083179, "dur":25453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130090108636, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130090108643, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130090109605, "dur":36613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130090146223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130090146250, "dur":7488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130090153752, "dur":44736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130090198493, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130090198500, "dur":3596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130090202108, "dur":58903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130090261013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130090261018, "dur":738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130090261771, "dur":83693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130090345468, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130090345475, "dur":3425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130090348916, "dur":200225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130090549145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130090549151, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130090550265, "dur":203069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130090753339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130090753345, "dur":2271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130090755630, "dur":42295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130090797929, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130090797936, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130090798853, "dur":311846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130091110703, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130091110710, "dur":2296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130091113021, "dur":260408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130091373434, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130091373442, "dur":982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130091374437, "dur":414781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Z://UnityOthello-master_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130091789222, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709130091789229, "dur":5041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Z://UnityOthello-master_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709130091794284, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1709130091794286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709130091797184, "dur":3200, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1709130091835636, "dur": 670, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1709130091835114, "dur": 1218, "ph": "X", "name": "Write chrome-trace events", "args": {} },
